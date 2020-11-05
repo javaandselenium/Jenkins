@@ -7,6 +7,8 @@ public class Sample2 {
 	public void demo()
 	{
 		System.out.println("Hello");
+		String browser =System.getProperty("Browser");
+		System.out.println(browser);
 		test();
 	}
 	
